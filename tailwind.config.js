@@ -6,6 +6,12 @@ export default {
             colors: {
                 black: "#060606",
             },
+            fontFamily: {
+                "hanken-grotesk": ["Hanken Grotesk", "sans-serif"],
+            },
+            fontSize: {
+                "2xs": ".625rem",
+            },
         },
     },
     plugins: [],
