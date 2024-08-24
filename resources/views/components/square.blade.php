@@ -1,7 +1,3 @@
 @props(['color' => 'bg-white', 'squareSize' => '2'])
 
-@php
-    $size = "w-{$squareSize} h-{$squareSize}";
-@endphp
-
-<span class="{{ $size }} inline-block {{ $color }}"></span>
+<span class="w-{{ $squareSize }} h-{{ $squareSize }} inline-block {{ $color }}"></span>

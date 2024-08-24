@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use App\Models\Job;
 use App\Models\Tag;
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Eloquent\Factories\Sequence;
 use Illuminate\Database\Seeder;
 
