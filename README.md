@@ -10,6 +10,14 @@
 
 ## Job Board Platform is a Laravel 11 web appliction project provided as lessons by Laracasts, which I worked on to refresh my Laravel knowledge and learn the latest features of Laravel.
 
+**Project consists of the following:**
+
+-   User authentication
+-   Functionality for posting new jobs and set featured jobs
+-   Lightweight SQLite database
+
+_Project can be extended easily.._
+
 # 🛠 Tech Stack
 
 <div>
