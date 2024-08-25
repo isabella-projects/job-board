@@ -58,21 +58,16 @@
 
 4. Configure Database: Modify the .env file to configure your database connection:
 
-```mysql
-  DB_CONNECTION=mysql
-  DB_HOST=127.0.0.1
-  DB_PORT=3306
-  DB_DATABASE=your_database_name
-  DB_USERNAME=your_database_username
-  DB_PASSWORD=your_database_password
+```sqlite
+  DB_CONNECTION=sqlite
 ```
 
 -   Replace `your_database_name`, `your_database_username`, and `your_database_password` with your actual database credentials.
 
-5. Run Migrations: Execute outstanding migrations with:
+5. Run Migrations and Seed the SQLite database: Execute outstanding migrations with:
 
 ```bash
-  php artisan migrate
+  php artisan migrate:fresh --seed
 ```
 
 6. Start the Laravel Development Server:
