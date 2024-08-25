@@ -4,6 +4,8 @@
 
 # 🌐 Job Board Platform
 
+![job-board](https://github.com/user-attachments/assets/7d7fde9c-cb67-4697-9a19-539991d8cfec)
+
 # 📝 Description
 
 ## Job Board Platform is a Laravel 11 web appliction project provided as lessons by Laracasts, which I worked on to refresh my Laravel knowledge and learn the latest features of Laravel.
